@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Swappd</string>
+    <string name="login">Login</string>
+    <string name="back">Back</string>
+    <string name="ride">Ride</string>
+    <string name="register">Register</string>
+</resources>
