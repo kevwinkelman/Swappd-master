@@ -62,11 +62,5 @@
             android:layout_height="wrap_content"
             android:id="@+id/registerButton" />
 
-        <Button
-            android:text="@string/back"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/backBtn" />
-
     </LinearLayout>
 </LinearLayout>

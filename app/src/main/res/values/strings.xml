@@ -4,4 +4,16 @@
     <string name="back">Back</string>
     <string name="ride">Ride</string>
     <string name="register">Register</string>
+    <string name="Bronco89">Bronco89</string>
+
+    <string-array name="parkinglots">
+        <item>Lot F</item>
+        <item>Lot M</item>
+        <item>Lot J</item>
+        <item>Lot N</item>
+        <item>Lot O</item>
+        <item>Lot K</item>
+        <item>Parking Structure (Old)</item>
+        <item>Parking Structure (New)</item>
+    </string-array>
 </resources>

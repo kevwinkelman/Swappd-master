@@ -13,10 +13,7 @@
 
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:layout_weight="0.95"
-        android:id="@+id/lotSpinner"
-        android:spinnerMode="dropdown">
-    </Spinner>
-
+        android:layout_height="wrap_content"
+        android:id="@+id/lots_spinner"
+        android:layout_weight="1" />
 </LinearLayout>

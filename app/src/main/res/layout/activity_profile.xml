@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.swappd.android.ProfileActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="30dp">
+    </View>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imgProfile"
+        android:layout_weight="0.75" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:id="@+id/ratingBar" />
+
+    <TextView
+        android:text="@string/Bronco89"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/txtUsername" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"></LinearLayout>
+
+    <TextView
+        android:text="Hello, Bronco!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/txtGreeting" />
+
+    <TextView
+        android:text="Payment Balance: $50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/txtPayBalance" />
+
+    <TextView
+        android:text="Coin Balance: 10 Coins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/txtCoinBalance" />
+
+    <TextView
+        android:text="Transfer or Convert Funds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#0099ff"
+        android:id="@+id/txtTransfer" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"></LinearLayout>
+
+    <Button
+        android:text="Arriving"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/brnArriving" />
+
+    <Button
+        android:text="Departing"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:id="@+id/btnDeparting" />
+</LinearLayout>
